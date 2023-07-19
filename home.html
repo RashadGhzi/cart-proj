@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Molla Bootstrap Ecommerce</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Molla Logo</div>
+        <div class="search">
+          <input type="text" name="search" id="" class="search-bar" />
+          <button type="button">
+            <i class="fas fa-search search-icon"></i>
+          </button>
+        </div>
+        <div class="icon">
+          <a>
+            <i class="fas fa-user"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-heart"></i>
+          </a>
+          <div class="dropdown">
+            <a id="cart-click">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+            <div class="dropdown-content" id="cart-content">
+              <div class="prod-card">
+                <div class="row">
+                  <div class="title-price">
+                    <div class="title">Beige knitted elastic runner shoes.</div>
+                    <div class="price">1 x $84.00</div>
+                  </div>
+                  <div class="img-close">
+                    <div class="img">
+                      <img
+                        src="./images/collection-page1.jpg"
+                        alt="error"
+                        srcset=""
+                      />
+                    </div>
+                    <a>
+                      <i class="fas fa-times close"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="row">
+                  <div class="title-price">
+                    <div class="title">Beige knitted elastic runner shoes.</div>
+                    <div class="price">1 x $84.00</div>
+                  </div>
+                  <div class="img-close">
+                    <div class="img">
+                      <img
+                        src="./images/collection-page1.jpg"
+                        alt="error"
+                        srcset=""
+                      />
+                    </div>
+                    <a>
+                      <i class="fas fa-times close"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="row">
+                  <div class="title-price">
+                    <div class="title">Beige knitted elastic runner shoes.</div>
+                    <div class="price">1 x $84.00</div>
+                  </div>
+                  <div class="img-close">
+                    <div class="img">
+                      <img
+                        src="./images/collection-page1.jpg"
+                        alt="error"
+                        srcset=""
+                      />
+                    </div>
+                    <a>
+                      <i class="fas fa-times close"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="row">
+                  <div class="title-price">
+                    <div class="title">Beige knitted elastic runner shoes.</div>
+                    <div class="price">1 x $84.00</div>
+                  </div>
+                  <div class="img-close">
+                    <div class="img">
+                      <img
+                        src="./images/collection-page1.jpg"
+                        alt="error"
+                        srcset=""
+                      />
+                    </div>
+                    <a>
+                      <i class="fas fa-times close"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="row">
+                  <div class="title-price">
+                    <div class="title">Beige knitted elastic runner shoes.</div>
+                    <div class="price">1 x $84.00</div>
+                  </div>
+                  <div class="img-close">
+                    <div class="img">
+                      <img
+                        src="./images/collection-page1.jpg"
+                        alt="error"
+                        srcset=""
+                      />
+                    </div>
+                    <a>
+                      <i class="fas fa-times close"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="row">
+                  <div class="title-price">
+                    <div class="title">Beige knitted elastic runner shoes.</div>
+                    <div class="price">1 x $84.00</div>
+                  </div>
+                  <div class="img-close">
+                    <div class="img">
+                      <img
+                        src="./images/collection-page1.jpg"
+                        alt="error"
+                        srcset=""
+                      />
+                    </div>
+                    <a>
+                      <i class="fas fa-times close"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="check">
+                <div class="total">
+                  <div class="total-text">TOTAL</div>
+                  <div class="total-amount">$160.00</div>
+                </div>
+
+                <div class="cart-check-btn">
+                  <a class="btn-style active">View Cart</a>
+                  <a class="btn-style">Checkout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script>
+        
+    // it is optional. remove this
+
+      let cartContent = document.getElementById("cart-content");
+      document
+        .getElementById("cart-click")
+        .addEventListener("click", function (event) {
+            event.preventDefault();
+            if (cartContent.style.display === 'none'){
+                cartContent.setAttribute("style", "display:block;");
+            }else{
+                cartContent.setAttribute("style", "display:none;");
+
+            }
+        });
+
+    </script>
+  </body>
+</html>
