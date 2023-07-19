@@ -20,6 +20,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 25px 70px;
+  width: 100%;
+  position: fixed;
 }
 
 .logo{
@@ -181,3 +183,4 @@ nav {
     font-family: cursive;
     font-size: 13px;
   }
+
