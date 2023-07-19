@@ -71,7 +71,7 @@ nav {
     z-index: 1;
     width: 350px;
     max-height:400px;
-    overflow: auto;
+    overflow-x: auto;
     right: 1px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -153,7 +153,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 10px 0px; */
     padding: 0px 17px;
     margin-bottom: 15px;
     font-size: 13px;
@@ -184,3 +183,9 @@ nav {
     font-size: 13px;
   }
 
+.cart-btn{
+    padding: 13px 75px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
