@@ -184,7 +184,7 @@ nav {
   }
 
 .cart-btn{
-    padding: 13px 75px;
+    padding: 13px 75px !important;
     background-color: #ccc;
     margin-bottom: 10px;
     border-radius: 5px;
